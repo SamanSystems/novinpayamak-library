@@ -1,0 +1,27 @@
+{
+    "name": "samansystems/novinpayamak-library",
+    "type": "library",
+    "description": "NovinPayamak is a service to send sms by API",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-soap": "*"
+    },
+    "keywords": [
+        "sms",
+        "short message service",
+        "novinpayamak"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alireza Rastgoo",
+            "email": "a.rastgoo@sspk.co.ir"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "NovinPayamak": "src"
+        }
+    }
+}
